@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            text-decoration: none;
+            list-style: none;
+            color: #333;
+        }
+        html{
+            font-size: 14px;
+        }
+        .wrap{
+            border-top: 3px solid orange;
+            border-bottom: 1px solid #eeeeee;
+        }
+
+        .wrap .content{
+            width: 970px;
+            margin: 0 auto;
+        }
+
+        .wrap .content ul, .wrap .content ul li,  .wrap .content ul li a{
+            display: inline-block;
+        }
+        .wrap .content ul li a{
+            padding: 10px 15px;
+        }
+
+        .wrap .content ul li a:hover{
+            background-color: rgba(0, 0, 0, .1);
+        }
+
+        .wrap .content ul.right{
+            margin-left: 430px;
+        }
+    </style>
+</head>
+
+<body>
+   <div class="wrap">
+       <div class="content">
+           <ul class="left">
+               <li><a href="">设为首页</a></li>
+               <li><a href="">手机新浪网</a></li>
+               <li><a href="">移动客户端</a></li>
+           </ul>
+           <ul class="right">
+            <li><a href="">博客</a></li>
+            <li><a href="">微博</a></li>
+            <li><a href="">关注我</a></li>
+        </ul>
+       </div>
+   </div>
+   
+</body>
+
+</html>
